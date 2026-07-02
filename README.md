@@ -1,37 +1,36 @@
-# GitHub Project Radar
+# GitHub 项目雷达
 
-A lightweight Codex skill for people who collect too many GitHub repos and need a durable review workflow.
+这是一个面向 GitHub 仓库收集场景的 Codex 技能，用来把"仓库收藏夹"变成可复用、可回写、可追踪的评估流程。
 
-It turns repo links into a small decision record:
+它把仓库链接压缩成一条清晰的决策记录：
 
-- Is this a duplicate?
-- Is it worth using?
-- Is it worth publishing or teaching?
-- Does it need installation testing?
-- Should it be archived?
+- 这是重复项吗？
+- 值不值得自己用？
+- 值不值得做成内容、教程或案例？
+- 需不需要安装验证？
+- 应不应该归档？
 
-## Files
+## 文件
 
-- `SKILL.md`: the reusable skill.
-- `assets/candidate-table-template.md`: starter candidate table.
-- `references/review-checklist.md`: review and install-test checklist.
+- `SKILL.md`：可复用的技能说明。
+- `assets/candidate-table-template.md`：候选表模板。
+- `references/review-checklist.md`：去重、分级、安装验证清单。
 
-## Recommended Workflow
+## 推荐流程
 
-1. Paste repo links into a thread.
-2. Normalize each link to `owner/repo`.
-3. Check the local candidate table.
-4. Assign one tier: `use`, `publish`, `test`, or `archive`.
-5. Only install-test repos that truly need verification.
-6. Write the decision back to the table.
+1. 把仓库链接贴进线程。
+2. 统一成 `owner/repo`。
+3. 查本地候选表。
+4. 只保留一个分级：`use`、`publish`、`test`、`archive`。
+5. 只有确实需要验证的仓库才做安装测试。
+6. 把结果回写到表里。
 
-## Repository Strategy
+## 仓库策略
 
-This package is designed to live in its own GitHub repository.
+这个包建议单独放在自己的 GitHub 仓库里。
 
-Do not mix it into an unrelated repo unless it is part of a larger skill library.
+除非它只是更大技能库的一部分，否则不要和别的项目混在一起。
 
-## License
+## 许可证
 
-MIT.
-
+MIT。

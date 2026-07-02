@@ -1,32 +1,31 @@
-# Review Checklist
+# 评估清单
 
-## Deduplication
+## 去重
 
-- Normalize to `owner/repo`.
-- Remove `.git`.
-- Remove `/tree/...`, `/blob/...`, and README subpaths.
-- Ignore query strings for identity.
+- 统一成 `owner/repo`。
+- 去掉 `.git`。
+- 去掉 `/tree/...`、`/blob/...` 和 README 子路径。
+- 身份识别时忽略查询参数。
 
-## Tiering
+## 分级
 
-Use `use` when the repo could improve the user's own workflow.
+当仓库能改善用户自己的工作流时，用 `use`。
 
-Use `publish` when the repo has a clear story, demo, or audience pain.
+当仓库有清楚的故事、演示或受众痛点时，用 `publish`。
 
-Use `test` when the repo is promising but needs install or runtime verification.
+当仓库有潜力，但还需要安装或运行验证时，用 `test`。
 
-Use `archive` when the repo is duplicate, stale, too narrow, or not relevant.
+当仓库重复、过时、过窄或不相关时，用 `archive`。
 
-## Install-Test Gate
+## 安装验证门槛
 
-Only test one repo at a time.
+一次只测一个仓库。
 
-Before testing, record:
+测试前先记录：
 
-- why the test is needed
-- expected visible result
-- install command source
-- rollback or cleanup notes
+- 为什么需要测
+- 预期能看到什么结果
+- 安装命令来自哪里
+- 回滚或清理说明
 
-Stop after two repeated failures with the same error.
-
+同一种错误连续失败两次后就停下来诊断。
