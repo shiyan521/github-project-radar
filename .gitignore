@@ -1,0 +1,14 @@
+# 编辑器临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 候选表本地副本（README 建议复制到自己的笔记目录）
+candidates.md
+candidates.local.md
+
+# 评估过程产物
+*.evaluation.md
+*.review.md

@@ -10,8 +10,23 @@
 - 需不需要安装验证？
 - 应不应该归档？
 
+## 适合谁用
+
+- 维护一个 GitHub 收藏夹或候选表的内容创作者、运营、研究者。
+- 不想每次都重新评估"这个仓库要不要装、要不要写"。
+- 想要一份可复用、能被同事或未来的自己看懂的评估记录。
+
+## 快速开始
+
+1. 复制 `assets/candidate-table-template.md` 到自己的笔记目录，改名 `candidates.md`。
+2. 在 Codex 或同款 AI 线程里贴上仓库链接，先问一句"是不是重复项"。
+3. 跑完一轮评估后，把结果回写到 `candidates.md`。
+4. 真正要安装验证时，再走 `references/review-checklist.md` 的清单。
+
 ## 文件
 
+- `README.md`：本文件。
+- `LICENSE`：MIT 许可证。
 - `SKILL.md`：可复用的技能说明。
 - `assets/candidate-table-template.md`：候选表模板。
 - `references/review-checklist.md`：去重、分级、安装验证清单。
@@ -30,6 +45,10 @@
 这个包建议单独放在自己的 GitHub 仓库里。
 
 除非它只是更大技能库的一部分，否则不要和别的项目混在一起。
+
+## 反馈与贡献
+
+有问题或想贡献，开 Issue 即可。本项目以"国内创作者能直接用"为目标，欢迎提一两条具体可复现的痛点。
 
 ## 许可证
 
